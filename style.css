@@ -28,6 +28,7 @@ footer {
 }
 
 nav {
+    margin: 12px;
     text-align: center;
 }
 
@@ -36,10 +37,16 @@ nav a {
     border-radius: 16px;
     font-size: 20px;
     text-decoration: none;
+    padding: 5px 12px;
 }
 
 nav a.active {
     background-color: aqua;
+}
+
+main {
+    max-width: 680px;
+    margin: 10px auto;
 }
 
 main img {
